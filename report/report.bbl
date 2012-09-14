@@ -1,0 +1,181 @@
+\begin{thebibliography}{10}
+
+\bibitem{bpmnposter}
+{BPMN 2.0 notations}.
+\newblock \url{http://www.bpmb.de/images/BPMN2_0_Poster_EN.pdf}.
+
+\bibitem{bpmn}
+{Business Process Model Notation}.
+\newblock \url{http://www.bpmn.org/}.
+
+\bibitem{graphviz}
+{Graphviz, Graph Visualization Software}.
+\newblock \url{http://www.graphviz.org/}.
+
+\bibitem{pydot}
+{Pydot, Python interface to Graphviz's Dot language}.
+\newblock \url{http://code.google.com/p/pydot/}.
+
+\bibitem{bocchisafety}
+'safety assurance framework for distributed systems through multiparty session
+  types.
+
+\bibitem{scribble}
+{{S}cribble developpement tool site}.
+\newblock \url{http://www.jboss.org/scribble}.
+
+\bibitem{scribblelanguage}
+{{S}cribble Language Reference}.
+\newblock \url{http://www.doc.ic.ac.uk/~rhu/scribble/langref.html}.
+
+\bibitem{ws}
+{W3C - Web Services Choreography Working Group}.
+\newblock \url{http://www.w3.org/2002/ws/chor/}.
+
+\bibitem{alur1999timed}
+R.~Alur.
+\newblock {Timed automata}.
+\newblock In {\em Computer Aided Verification}, volume 1633 of {\em Lecture
+  Notes in Computer Science}, pages 688--688. Springer, 1999.
+
+\bibitem{alur1994theory}
+R.~Alur and D.L. Dill.
+\newblock {A theory of timed automata}.
+\newblock {\em Theoretical computer science}, 126(2):183--235, 1994.
+
+\bibitem{bengtsson2004timed}
+J.~Bengtsson and W.~Yi.
+\newblock {Timed automata: Semantics, algorithms and tools}.
+\newblock {\em Lectures on Concurrency and Petri Nets}, 3098:87--124, 2004.
+
+\bibitem{berger2002towards}
+M.~Berger.
+\newblock {\em {Towards Abstractions for Distributed Systems}}.
+\newblock PhD thesis, Imperial College, Deptartment of Computing, 2002.
+
+\bibitem{berger2007timed}
+M.~Berger and N.~Yoshida.
+\newblock {Timed, Distributed, Probabilistic, Typed Processes}.
+\newblock In {\em Proceedings of the 5th Asian conference on Programming
+  languages and systems}, volume 4807 of {\em Lecture Notes in Computer
+  Science}, pages 158--174. Springer-Verlag, 2007.
+
+\bibitem{coppoglobal}
+L.~Bettini, M.~Coppo, L.~D'Antoni, M.~De~Luca, M.~Dezani-Ciancaglini, and
+  N.~Yoshida.
+\newblock {Global Progress in Dynamically Interleaved Multiparty Sessions}.
+\newblock 5201:418--433, 2008.
+
+\bibitem{bocchi2010theory}
+L.~Bocchi, K.~Honda, E.~Tuosto, and N.~Yoshida.
+\newblock {A theory of design-by-contract for distributed multiparty
+  interactions}.
+\newblock {\em CONCUR 2010-Concurrency Theory}, 6269:162--176, 2010.
+
+\bibitem{ciobanu2006timers}
+G.~Ciobanu and C.~Prisacariu.
+\newblock {Timers for distributed systems}.
+\newblock {\em Electronic Notes in Theoretical Computer Science},
+  164(3):81--99, 2006.
+
+\bibitem{denielou2012multiparty}
+P.M. Deni{\'e}lou and N.~Yoshida.
+\newblock {Multiparty Session Types Meet Communicating Automata}.
+\newblock In {\em ESOP}, volume 7211 of {\em Lecture Notes in Computer
+  Science}, pages 194--213, 2012.
+
+\bibitem{desel1995free}
+J.~Desel and J.~Esparza.
+\newblock {\em {Free choice Petri nets}}, volume~40.
+\newblock Cambridge Univ Pr, 1995.
+
+\bibitem{henriksentrustworthy}
+A.S. Henriksen, L.~Nielsen, T.T. Hildebrandt, N.~Yoshida, and F.~Henglein.
+\newblock {Trustworthy Pervasive Healthcare Services via Multiparty Session
+  Types}.
+\newblock To appear, 2012.
+
+\bibitem{honda2011scribbling}
+K.~Honda, A.~Mukhamedov, G.~Brown, T.C. Chen, and N.~Yoshida.
+\newblock {Scribbling interactions with a formal foundation}.
+\newblock volume 6536 of {\em Lecture Notes in Computer Science}, pages 55--75.
+  Springer, 2011.
+
+\bibitem{honda1998language}
+K.~Honda, V.~Vasconcelos, and M.~Kubo.
+\newblock {Language primitives and type discipline for structured
+  communication-based programming}.
+\newblock volume 1381 of {\em Lecture Notes in Computer Science}, pages
+  122--138. Springer, 1998.
+
+\bibitem{hu2008session}
+R.~Hu, N.~Yoshida, and K.~Honda.
+\newblock {Session-Based Distributed Programming in Java}.
+\newblock volume 5142 of {\em Lecture Notes in Computer Science}, pages
+  516--541. Springer, 2008.
+
+\bibitem{hvitved12phd}
+Tom Hvitved.
+\newblock {\em {Contract Formalisation and Modular Implementation of
+  Domain-Specific Languages}}.
+\newblock PhD thesis, Department of Computer Science, University of Copenhagen,
+  2012.
+
+\bibitem{hvitved12jlap}
+Tom Hvitved, Felix Klaedtke, and Eugen Z{\u a}linescu.
+\newblock {A trace-based model for multiparty contracts}.
+\newblock {\em Journal of Logic and Algebraic Programming}, 81(2):72--98, 2012.
+\newblock Formal Languages and Analysis of Contract-Oriented Software
+  (FLACOS'10).
+
+\bibitem{lee2002modeling}
+J.Y. Lee and J.~Zic.
+\newblock {On modeling real-time mobile processes}.
+\newblock In {\em Australian Computer Science Communications}, volume~24, pages
+  139--147. Australian Computer Society, Inc., 2002.
+
+\bibitem{lopez2010towards}
+H.A. L{\'o}pez, C.~Olarte, and J.A. P{\'e}rez.
+\newblock {Towards a unified framework for declarative structured
+  communications}.
+\newblock {\em Programming Language Approaches to Concurrency and
+  CommunicationcEntric Software (PLACES’2009), EPTCS}, 17:1--15, 2010.
+
+\bibitem{maggi2011monitoring}
+F.~Maggi, M.~Montali, M.~Westergaard, and W.~van~der Aalst.
+\newblock {Monitoring business constraints with linear temporal logic: an
+  approach based on colored automata}.
+\newblock volume 6896 of {\em Lecture Notes in Computer Science}, pages
+  132--147. Springer, 2011.
+
+\bibitem{ngmultiparty}
+N.~Ng, N.~Yoshida, and K.~Honda.
+\newblock {Multiparty Session C: Safe Parallel Programming with Message
+  Optimisation}.
+\newblock In {\em TOOLS (50)}, volume 7304 of {\em Lecture Notes in Computer
+  Science}, pages 202--218. Springer, 2012.
+
+\bibitem{saeedloei2008timed}
+N.~Saeedloei and G.~Gupta.
+\newblock {Timed Pi-calculus}.
+\newblock {\em University of Texas at Dallas technical report}, 2008.
+
+\bibitem{van1998application}
+W.M.P. Van~der Aalst et~al.
+\newblock {The application of Petri nets to workflow management}.
+\newblock {\em Journal of Circuits Systems and Computers}, 8:21--66, 1998.
+
+\bibitem{vanderaalst1992timed}
+W.~VANDERAALST.
+\newblock {\em {Timed Coloured Petri Nets and their Application to Logistics}}.
+\newblock PhD thesis, Technische Universiteit Eindhoven.
+
+\bibitem{yoshida2007language}
+N.~Yoshida and V.T. Vasconcelos.
+\newblock {Language Primitives and Type Discipline for Structured
+  Communication-Based Programming Revisited: Two Systems for Higher-Order
+  Session Communication}.
+\newblock {\em Electronic Notes in Theoretical Computer Science},
+  171(4):73--93, 2007.
+
+\end{thebibliography}

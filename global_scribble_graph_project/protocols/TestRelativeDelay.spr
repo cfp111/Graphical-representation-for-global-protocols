@@ -1,0 +1,5 @@
+global protocol TestRelativeDelay ( role A, role U) {
+	PollMode(InstrumentId,int) from U to A within 2s;
+	wait for t + 3 h
+	PollMode from A to I within 1s;
+}

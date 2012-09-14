@@ -1,0 +1,7 @@
+global protocol TestRecursionAndChoice ( role A, role B, role C, role D ) {
+ rec Loop {choice at A { Msg1 from A to B within 3h;} or {
+  Msg from A to C within 2min;
+           continue Loop;}
+  or { Msg2 from A to D within 5min;}
+}
+}

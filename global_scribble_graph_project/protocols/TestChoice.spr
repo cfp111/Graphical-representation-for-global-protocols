@@ -1,0 +1,5 @@
+global protocol TestChoice ( role A, role U, role I) {
+ PushMode(InstrumentId) from U to A within 2s;
+ PushMode from A to I within 1s;
+ choice at I {Supported from I to A within 1s;} or {NotSupported from I to A within 1s;}
+}

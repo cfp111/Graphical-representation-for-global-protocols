@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<section name="xgml">
+	<attribute key="Creator" type="String">yFiles</attribute>
+	<attribute key="Version" type="String">2.9</attribute>
+	<section name="graph">
+		<attribute key="hierarchic" type="int">1</attribute>
+		<attribute key="label" type="String"></attribute>
+		<attribute key="directed" type="int">1</attribute>
+		<section name="node">
+			<attribute key="id" type="int">0</attribute>
+			<attribute key="label" type="String">global protocol
+ in Scribble</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">159.5</attribute>
+				<attribute key="y" type="double">90.18416595458984</attribute>
+				<attribute key="w" type="double">91.0</attribute>
+				<attribute key="h" type="double">27.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="hasFill" type="boolean">false</attribute>
+				<attribute key="hasOutline" type="boolean">false</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">global protocol
+ in Scribble</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">1</attribute>
+			<attribute key="label" type="String">ANTLRWorks</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">258.5</attribute>
+				<attribute key="y" type="double">148.5</attribute>
+				<attribute key="w" type="double">91.0</attribute>
+				<attribute key="h" type="double">65.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="hasFill" type="boolean">false</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">ANTLRWorks</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">2</attribute>
+			<attribute key="label" type="String">Eclipse</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">388.5</attribute>
+				<attribute key="y" type="double">148.5</attribute>
+				<attribute key="w" type="double">63.0</attribute>
+				<attribute key="h" type="double">65.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="hasFill" type="boolean">false</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Eclipse</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">3</attribute>
+			<attribute key="label" type="String">graph</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">460.0</attribute>
+				<attribute key="y" type="double">210.5</attribute>
+				<attribute key="w" type="double">44.0</attribute>
+				<attribute key="h" type="double">27.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="hasFill" type="boolean">false</attribute>
+				<attribute key="hasOutline" type="boolean">false</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">graph</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">1</attribute>
+			<attribute key="target" type="int">2</attribute>
+			<section name="graphics">
+				<attribute key="width" type="int">7</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">1</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="style" type="String">dotted</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">10.338403701782227</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">159.5</attribute>
+						<attribute key="y" type="double">90.18416595458984</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">227.60458374023438</attribute>
+						<attribute key="y" type="double">95.0262451171875</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">258.5</attribute>
+						<attribute key="y" type="double">148.5</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">1.0</attribute>
+				<attribute key="xTarget" type="double">-0.4660732929978266</attribute>
+				<attribute key="yTarget" type="double">-0.9995335755737439</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">2</attribute>
+			<attribute key="target" type="int">3</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="style" type="String">dotted</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">14.071710586547852</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">388.5</attribute>
+						<attribute key="y" type="double">148.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">449.9110107421875</attribute>
+						<attribute key="y" type="double">180.69601440429688</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">460.0</attribute>
+						<attribute key="y" type="double">210.5</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">1.0004583199793307</attribute>
+				<attribute key="ySource" type="double">0.6887632320962281</attribute>
+			</section>
+		</section>
+	</section>
+</section>

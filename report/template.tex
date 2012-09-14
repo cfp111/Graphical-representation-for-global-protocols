@@ -1,0 +1,133 @@
+\documentclass[8 pt]{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \useoutertheme{infolines}
+  \usecolortheme{ste}
+  \setbeamercovered{transparent}
+}
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{stmaryrd}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage{bm}
+\usepackage[OT1]{fontenc}
+\usepackage{algorithmic}
+\usepackage{verbatim}
+\usepackage{tikz} % TikZ + Libraries
+\usepackage{pgfplots}
+\usepackage{psfrag}
+
+%==================================================
+% Custom Definitions
+
+\newcommand{\RED}{\color[rgb]{0.90,0,0}}
+\newcommand{\BLUE}{\color[rgb]{0,0,0.69}}
+\newcommand{\GREEN}{\color[rgb]{0,0.69,0}}
+\newcommand{\PURPLE}{\color[rgb]{0,0.69,0.69}}
+\newcommand{\BLACK}{\color[rgb]{0,0,0}}
+
+
+%\includeonlyframes{current}
+
+\title[Scientific Writing] % (optional, use only with long paper titles)
+{Scientific Writing: Making a Presentation}
+
+\author[R. Couillet] % (optional, use only with lots of authors)
+{ {\bf Romain Couillet} \\ EDF Chair on System Sciences and the Energy Challenge, Sup\'elec, Gif sur Yvette, France \\ {\it romain.couillet@supelec.fr}}
+
+\institute[Sup\'elec] % (optional, but mostly needed)
+{Sup\'elec}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[01/06/2011] % (optional, should be abbreviation of conference name)
+{}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+%\logo{\includegraphics[height=0.2cm]{logo.pdf}}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+ \AtBeginSection[]
+ {
+   \begin{frame}<beamer>{Outline}
+     \tableofcontents[currentsection,currentsubsection]
+   \end{frame}
+}
+ \AtBeginSubsection[]
+ {
+   \begin{frame}<beamer>{Outline}
+     \tableofcontents[currentsection,currentsubsection]
+   \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+%%%%%%%%%%%%%%%%%%%%<MISC>%%%%%%%%%%%%%%%%%%%%
+% DEFINE NXP COLORS
+\definecolor{nxpN}{RGB}{251,178,28}
+\definecolor{nxpX}{RGB}{110,171,221}
+\definecolor{nxpP}{RGB}{190,213,48}
+
+%\includeonlyframes{current}
+
+%%%%%%%%%%%%%%%%%%%%<START DOCUMENT>%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  \begin{center}
+  \begin{pgfpicture}{0cm}{0cm}{15cm}{2cm}
+	  \pgfputat{\pgfxy(10,1)}{\pgfbox[center,center]
+	  {\includegraphics[height=1.5cm]{supelec_logo.pdf}}}
+  \end{pgfpicture}
+\end{center}
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Section 1}
+
+\begin{frame}{Title of Frame 1}
+
+	\begin{itemize}
+		\item Item 1
+		\item Item 2
+			\pause
+		\item Item 3
+	\end{itemize}
+
+\end{frame}
+
+\subsection{Subsection 1}
+
+\section{Section 2}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%% End

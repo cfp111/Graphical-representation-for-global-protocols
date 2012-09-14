@@ -1,0 +1,4 @@
+global protocol TestConstraint ( role A, role U) {
+	t before 4 min
+	PollMode(InstrumentId,int) from U to A within 2 s;
+}

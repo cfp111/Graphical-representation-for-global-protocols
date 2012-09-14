@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<section name="xgml">
+	<attribute key="Creator" type="String">yFiles</attribute>
+	<attribute key="Version" type="String">2.9</attribute>
+	<section name="graph">
+		<attribute key="hierarchic" type="int">1</attribute>
+		<attribute key="label" type="String"></attribute>
+		<attribute key="directed" type="int">1</attribute>
+		<section name="node">
+			<attribute key="id" type="int">0</attribute>
+			<attribute key="label" type="String">x1</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">290.0</attribute>
+				<attribute key="y" type="double">121.0</attribute>
+				<attribute key="w" type="double">30.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="type" type="String">ellipse</attribute>
+				<attribute key="hasFill" type="boolean">false</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">x1</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">1</attribute>
+			<attribute key="label" type="String">x2</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">506.0</attribute>
+				<attribute key="y" type="double">121.0</attribute>
+				<attribute key="w" type="double">30.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="type" type="String">ellipse</attribute>
+				<attribute key="hasFill" type="boolean">false</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">x2</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">1</attribute>
+			<attribute key="label" type="String">A I ! PushMode</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">35.010990142822266</attribute>
+				<attribute key="arcRatio" type="double">0.6483516693115234</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">290.0</attribute>
+						<attribute key="y" type="double">121.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">398.0</attribute>
+						<attribute key="y" type="double">85.989013671875</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">506.0</attribute>
+						<attribute key="y" type="double">121.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A I ! PushMode</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">thead</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">1</attribute>
+			<attribute key="target" type="int">1</attribute>
+			<section name="graphics">
+				<attribute key="type" type="String">arc</attribute>
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<attribute key="arcType" type="String">fixedRatio</attribute>
+				<attribute key="arcHeight" type="double">0.0</attribute>
+				<attribute key="arcRatio" type="double">1.0</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">506.0</attribute>
+						<attribute key="y" type="double">121.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">506.0</attribute>
+						<attribute key="y" type="double">121.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">506.0</attribute>
+						<attribute key="y" type="double">121.0</attribute>
+					</section>
+				</section>
+			</section>
+		</section>
+	</section>
+</section>

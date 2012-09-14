@@ -1,0 +1,5 @@
+global protocol TestRecursion ( role A, role I, role U) {
+ rec PUSH {Raw(Data) from I to A within 1s;
+ 		   Formatted(Data) from A to U within 2s;
+           continue PUSH;}
+}

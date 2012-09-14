@@ -1,0 +1,20 @@
+global protocol TestG1(role A, role B, role C, role D){
+   wait for t + 2s;
+   Msg1 from A to B within 1s;
+   choice at C {
+      Msg2 from C to B within 1s; 
+   }
+   or{
+      Msg3 from C to A within 1s; 
+   }
+   par{
+      Msg5 from A to C within 1s; 
+   }
+   and{
+      Msg4 from B to D within 1s; 
+   }
+   rec loop {
+      Msg6 from A to C within 1s;
+      continue loop;
+   }
+}

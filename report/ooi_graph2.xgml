@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<section name="xgml">
+	<attribute key="Creator" type="String">yFiles</attribute>
+	<attribute key="Version" type="String">2.9</attribute>
+	<section name="graph">
+		<attribute key="hierarchic" type="int">1</attribute>
+		<attribute key="label" type="String"></attribute>
+		<attribute key="directed" type="int">1</attribute>
+		<section name="node">
+			<attribute key="id" type="int">0</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">445.0</attribute>
+				<attribute key="y" type="double">75.0</attribute>
+				<attribute key="w" type="double">30.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Event</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">EVENT_TYPE_PLAIN</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.characteristic</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.JA</attribute>
+						<attribute key="value" type="String">EVENT_CHARACTERISTIC_START</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#27AE27</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">1</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">445.0</attribute>
+				<attribute key="y" type="double">151.0</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">2</attribute>
+			<attribute key="label" type="String">U -> A: PushMode&lt;InstrumentId></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">218.0</attribute>
+				<attribute key="y" type="double">211.5</attribute>
+				<attribute key="w" type="double">187.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">U -> A: PushMode&lt;InstrumentId></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">3</attribute>
+			<attribute key="label" type="String">U -> A: PollMode&lt;InstrumentId,int></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">692.5</attribute>
+				<attribute key="y" type="double">211.5</attribute>
+				<attribute key="w" type="double">196.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">U -> A: PollMode&lt;InstrumentId,int></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">4</attribute>
+			<attribute key="label" type="String">A -> I: PushMode</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">218.0</attribute>
+				<attribute key="y" type="double">271.5</attribute>
+				<attribute key="w" type="double">187.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: PushMode</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">5</attribute>
+			<attribute key="label" type="String">A -> I: PollMode</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">692.5</attribute>
+				<attribute key="y" type="double">271.5</attribute>
+				<attribute key="w" type="double">196.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: PollMode</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">6</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">218.0</attribute>
+				<attribute key="y" type="double">339.0</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">7</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">692.5</attribute>
+				<attribute key="y" type="double">339.0</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">8</attribute>
+			<attribute key="label" type="String">I -> A: Supported</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">102.5</attribute>
+				<attribute key="y" type="double">406.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: Supported</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">9</attribute>
+			<attribute key="label" type="String">A -> I: ConfigPush</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">102.5</attribute>
+				<attribute key="y" type="double">466.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: ConfigPush</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">10</attribute>
+			<attribute key="label" type="String">I -> A: NotSupported</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">319.5</attribute>
+				<attribute key="y" type="double">406.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: NotSupported</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">11</attribute>
+			<attribute key="label" type="String">A -> I: ConfigPoll</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">319.5</attribute>
+				<attribute key="y" type="double">466.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: ConfigPoll</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">12</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">102.5</attribute>
+				<attribute key="y" type="double">534.0</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">13</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">314.5</attribute>
+				<attribute key="y" type="double">534.0</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">14</attribute>
+			<attribute key="label" type="String">I -> A: Raw&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">102.5</attribute>
+				<attribute key="y" type="double">601.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: Raw&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">15</attribute>
+			<attribute key="label" type="String">A -> U: Formatted&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">102.5</attribute>
+				<attribute key="y" type="double">661.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> U: Formatted&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">16</attribute>
+			<attribute key="label" type="String">A -> I: Poll</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">319.5</attribute>
+				<attribute key="y" type="double">601.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: Poll</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">17</attribute>
+			<attribute key="label" type="String">I -> A: Raw&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">319.5</attribute>
+				<attribute key="y" type="double">661.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: Raw&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">18</attribute>
+			<attribute key="label" type="String">A -> U: Formatted&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">319.5</attribute>
+				<attribute key="y" type="double">721.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> U: Formatted&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">19</attribute>
+			<attribute key="label" type="String">I -> A: Supported</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">558.5</attribute>
+				<attribute key="y" type="double">406.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: Supported</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">20</attribute>
+			<attribute key="label" type="String">I -> A: NotSupported</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">807.0</attribute>
+				<attribute key="y" type="double">406.5</attribute>
+				<attribute key="w" type="double">140.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: NotSupported</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">21</attribute>
+			<attribute key="label" type="String">A -> I: ConfigPoll</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">558.5</attribute>
+				<attribute key="y" type="double">466.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: ConfigPoll</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">22</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">807.0</attribute>
+				<attribute key="y" type="double">466.5</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PLAIN</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">|</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">23</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">558.5</attribute>
+				<attribute key="y" type="double">534.0</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">24</attribute>
+			<attribute key="label" type="String">A -> I: Poll</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">558.5</attribute>
+				<attribute key="y" type="double">601.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: Poll</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">25</attribute>
+			<attribute key="label" type="String">I -> A: Raw&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">558.5</attribute>
+				<attribute key="y" type="double">661.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: Raw&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">26</attribute>
+			<attribute key="label" type="String">A -> U: Formatted&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">558.5</attribute>
+				<attribute key="y" type="double">721.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> U: Formatted&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">27</attribute>
+			<attribute key="label" type="String">A -> I: ConfigPush</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">737.75</attribute>
+				<attribute key="y" type="double">534.0</attribute>
+				<attribute key="w" type="double">113.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> I: ConfigPush</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">28</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">737.75</attribute>
+				<attribute key="y" type="double">601.5</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">29</attribute>
+			<attribute key="label" type="String">I -> A: Raw&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">737.75</attribute>
+				<attribute key="y" type="double">661.5</attribute>
+				<attribute key="w" type="double">113.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I -> A: Raw&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">30</attribute>
+			<attribute key="label" type="String"></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">907.5</attribute>
+				<attribute key="y" type="double">534.0</attribute>
+				<attribute key="w" type="double">45.0</attribute>
+				<attribute key="h" type="double">45.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Gateway</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">GATEWAY_TYPE_PARALLEL</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#E38B00</attribute>
+			</section>
+			<section name="LabelGraphics">
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">31</attribute>
+			<attribute key="label" type="String">A -> U: Formatted&lt;Data></attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">917.0</attribute>
+				<attribute key="y" type="double">601.5</attribute>
+				<attribute key="w" type="double">144.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="customconfiguration" type="String">com.yworks.bpmn.Activity</attribute>
+				<section name="styleproperties">
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.activityType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.u</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE_TASK</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.type</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.b</attribute>
+						<attribute key="value" type="String">ACTIVITY_TYPE</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.taskType</attribute>
+						<attribute key="valueClass" type="String">B.A.B.A.A.i</attribute>
+						<attribute key="value" type="String">TASK_TYPE_ABSTRACT</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.line.color</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#000000</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#ffffff</attribute>
+					</section>
+					<section name="property">
+						<attribute key="name" type="String">com.yworks.bpmn.icon.fill2</attribute>
+						<attribute key="valueClass" type="String">java.awt.Color</attribute>
+						<attribute key="value" type="String">#d4d4d4</attribute>
+					</section>
+				</section>
+				<attribute key="fill" type="String">#FFFFFFE6</attribute>
+				<attribute key="fill2" type="String">#D4D4D4CC</attribute>
+				<attribute key="outline" type="String">#123EA2</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">A -> U: Formatted&lt;Data></attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">1</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">1</attribute>
+			<attribute key="target" type="int">2</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">1</attribute>
+			<attribute key="target" type="int">3</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">2</attribute>
+			<attribute key="target" type="int">4</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">5</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">4</attribute>
+			<attribute key="target" type="int">6</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">5</attribute>
+			<attribute key="target" type="int">7</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="yTarget" type="double">-0.9333333333333333</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">6</attribute>
+			<attribute key="target" type="int">8</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">6</attribute>
+			<attribute key="target" type="int">10</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">8</attribute>
+			<attribute key="target" type="int">9</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">10</attribute>
+			<attribute key="target" type="int">11</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">9</attribute>
+			<attribute key="target" type="int">12</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.6319444444444444</attribute>
+				<attribute key="ySource" type="double">0.18181818181818182</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">11</attribute>
+			<attribute key="target" type="int">13</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.6352941176470585</attribute>
+				<attribute key="ySource" type="double">0.5818181818181818</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">12</attribute>
+			<attribute key="target" type="int">14</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">14</attribute>
+			<attribute key="target" type="int">15</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">13</attribute>
+			<attribute key="target" type="int">16</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">16</attribute>
+			<attribute key="target" type="int">17</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">17</attribute>
+			<attribute key="target" type="int">18</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">19</attribute>
+			<attribute key="target" type="int">21</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">21</attribute>
+			<attribute key="target" type="int">23</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.6352941176470583</attribute>
+				<attribute key="ySource" type="double">0.21818181818181817</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">23</attribute>
+			<attribute key="target" type="int">24</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">24</attribute>
+			<attribute key="target" type="int">25</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">25</attribute>
+			<attribute key="target" type="int">26</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">20</attribute>
+			<attribute key="target" type="int">22</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">22</attribute>
+			<attribute key="target" type="int">27</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">22</attribute>
+			<attribute key="target" type="int">30</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xTarget" type="double">-0.5411968981407528</attribute>
+				<attribute key="yTarget" type="double">-0.45802919776377976</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">27</attribute>
+			<attribute key="target" type="int">28</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.6352941176470586</attribute>
+				<attribute key="ySource" type="double">0.21818181818181817</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">30</attribute>
+			<attribute key="target" type="int">31</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">28</attribute>
+			<attribute key="target" type="int">29</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">7</attribute>
+			<attribute key="target" type="int">19</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">7</attribute>
+			<attribute key="target" type="int">20</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">15</attribute>
+			<attribute key="target" type="int">12</attribute>
+			<attribute key="label" type="String">t &lt; 100</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">102.5</attribute>
+						<attribute key="y" type="double">661.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">219.0</attribute>
+						<attribute key="y" type="double">661.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">219.0</attribute>
+						<attribute key="y" type="double">509.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">149.0</attribute>
+						<attribute key="y" type="double">509.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">102.5</attribute>
+						<attribute key="y" type="double">534.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">t &lt; 100</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">ttail</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">18</attribute>
+			<attribute key="target" type="int">13</attribute>
+			<attribute key="label" type="String">t &lt; 80</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">319.5</attribute>
+						<attribute key="y" type="double">721.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">421.0</attribute>
+						<attribute key="y" type="double">721.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">421.0</attribute>
+						<attribute key="y" type="double">509.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">363.0</attribute>
+						<attribute key="y" type="double">509.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">314.5</attribute>
+						<attribute key="y" type="double">534.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">t &lt; 80</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">tail</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">26</attribute>
+			<attribute key="target" type="int">23</attribute>
+			<attribute key="label" type="String">t &lt; 80</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">558.5</attribute>
+						<attribute key="y" type="double">721.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">655.0</attribute>
+						<attribute key="y" type="double">721.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">655.0</attribute>
+						<attribute key="y" type="double">521.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">558.5</attribute>
+						<attribute key="y" type="double">534.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">0.4097222222222222</attribute>
+				<attribute key="xTarget" type="double">0.28888888888888886</attribute>
+				<attribute key="yTarget" type="double">-0.5777777777777777</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">t &lt; 80</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">ttail</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">29</attribute>
+			<attribute key="target" type="int">28</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">737.75</attribute>
+						<attribute key="y" type="double">661.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">808.0</attribute>
+						<attribute key="y" type="double">661.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">808.0</attribute>
+						<attribute key="y" type="double">585.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">737.75</attribute>
+						<attribute key="y" type="double">601.5</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">0.9380530973451328</attribute>
+				<attribute key="xTarget" type="double">0.13333333333333333</attribute>
+				<attribute key="yTarget" type="double">-0.7111111111111111</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">31</attribute>
+			<attribute key="target" type="int">30</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">917.0</attribute>
+						<attribute key="y" type="double">601.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">990.0</attribute>
+						<attribute key="y" type="double">601.5</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">990.0</attribute>
+						<attribute key="y" type="double">517.0</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">907.5</attribute>
+						<attribute key="y" type="double">534.0</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">0.6041666666666666</attribute>
+				<attribute key="xTarget" type="double">-0.24444444444444444</attribute>
+				<attribute key="yTarget" type="double">-0.7555555555555555</attribute>
+			</section>
+		</section>
+	</section>
+</section>

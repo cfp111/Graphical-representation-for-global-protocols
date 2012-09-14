@@ -1,0 +1,83 @@
+% Copyright 2007 by Till Tantau
+%
+% Modified 2009 by Sebastian Wagner (ST-Ericsson)
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+%
+% Modified version of beamercolorthemebeetle.sty 
+% with some adjustments from other themes
+
+\ProvidesPackageRCS $Header: /cvsroot/latex-beamer/latex-beamer/themes/color/beamercolorthemenxp.sty,v 1.6 2007/08/19 20:48:24 tantau Exp $
+
+
+\mode<presentation>
+
+% Define ST-Ericsson Colors
+\definecolor{steOrange}{RGB}{230,119,37}
+\definecolor{steOrangeLight}{RGB}{247,145,35}
+\definecolor{steBlue}{RGB}{147,176,192}
+
+% Set colors for structural things
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{structure}{fg=blue}
+\setbeamercolor{alerted text}{fg=red!85!black}
+\setbeamercolor{item projected}{use=item,fg=black,bg=steOrangeLight}
+
+% Define main colors
+\setbeamercolor*{palette primary}{fg=white,bg=steBlue}
+\setbeamercolor*{palette secondary}{parent=palette primary,use=palette primary,bg=palette primary.bg!95!black}
+\setbeamercolor*{palette tertiary}{parent=palette primary,use=palette primary,bg=palette primary.bg!90!black}
+\setbeamercolor*{palette quaternary}{parent=palette primary,use=palette primary,bg=palette primary.bg!85!black}
+
+% Set colors for sidebar
+\setbeamercolor*{sidebar}{parent=palette primary}
+
+\setbeamercolor*{palette sidebar primary}{fg=white}
+\setbeamercolor*{palette sidebar secondary}{fg=black}
+\setbeamercolor*{palette sidebar tertiary}{fg=white}
+\setbeamercolor*{palette sidebar quaternary}{fg=black}
+
+% Set colors for frame-titles
+
+\setbeamercolor{framesubtitle}{fg=black}
+\setbeamercolor*{subtitle}{fg=black}
+
+% Set colors for blocks
+
+% Titles of blocks
+\setbeamercolor*{titlelike}{parent=structure}
+\setbeamercolor*{block title}{parent=palette sidebar primary,bg=palette primary.bg!95!black}
+\setbeamercolor*{block title alerted}{use=alerted text,fg=normal text.fg,bg=alerted text.fg!75!bg}
+\setbeamercolor*{block title example}{parent=palette sidebar primary,bg=steOrange}
+
+% Block Body
+\setbeamercolor*{block body}{parent=normal text,use=block title,bg=block title.bg!25!bg}
+\setbeamercolor*{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+\setbeamercolor*{block body example}{parent=normal text,use=block title example,bg=block title example.bg!25!bg}
+
+
+%\setbeamercolor{titlelike}{parent=palette quaternary}
+
+%\setbeamercolor{block title}{fg=craneblue,bg=craneorange}
+%\setbeamercolor{block title alerted}{use=alerted text,fg=craneblue,bg=alerted text.fg!75!bg}
+%\setbeamercolor{block title example}{use=example text,fg=craneblue,bg=example text.fg!75!bg}
+
+%\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!25!bg}
+%\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+%\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!25!bg}
+
+
+
+
+
+% Other
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\mode
+<all>

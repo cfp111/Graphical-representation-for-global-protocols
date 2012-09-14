@@ -1,0 +1,4 @@
+global protocol TestInterrupt ( role A, role U) {
+ interruptible {
+ rec Loop {PollMode(InstrumentId,int) from U to A within 2s;continue Loop;}} by A with stop
+}

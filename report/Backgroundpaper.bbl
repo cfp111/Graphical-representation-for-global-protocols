@@ -1,0 +1,49 @@
+\begin{thebibliography}{1}
+
+\bibitem{bocchisafety}
+L.~Bocchi, T.C. Chen, R.~Demangeon, P.M. Deni{\'e}lou, K.~Honda, R.~Hu,
+  R.~Neykova, and N.~Yoshida.
+\newblock Safety assurance framework for distributed systems through multiparty
+  session types.
+
+\bibitem{coppoglobal}
+M.~Coppo, M.~Dezani-Ciancaglini, L.~Bettini, and N.~Yoshida.
+\newblock Global progress and its inference for dynamically interleaved
+  multiparty sessions.
+
+\bibitem{denielou2012multiparty}
+P.M. Deni{\'e}lou and N.~Yoshida.
+\newblock Multiparty session types meet communicating automata.
+\newblock In {\em ESOP. LNCS}, 2012.
+
+\bibitem{honda2011scribbling}
+K.~Honda, A.~Mukhamedov, G.~Brown, T.C. Chen, and N.~Yoshida.
+\newblock Scribbling interactions with a formal foundation.
+\newblock {\em Distributed Computing and Internet Technology}, pages 55--75,
+  2011.
+
+\bibitem{honda1998language}
+K.~Honda, V.~Vasconcelos, and M.~Kubo.
+\newblock Language primitives and type discipline for structured
+  communication-based programming.
+\newblock {\em Programming Languages and Systems}, pages 122--138, 1998.
+
+\bibitem{hu2008session}
+R.~Hu, N.~Yoshida, and K.~Honda.
+\newblock Session-based distributed programming in java.
+\newblock {\em ECOOP 2008--Object-Oriented Programming}, pages 516--541, 2008.
+
+\bibitem{ngmultiparty}
+N.~Ng, N.~Yoshida, and K.~Honda.
+\newblock Multiparty session c: Safe parallel programming with message
+  optimisation.
+
+\bibitem{yoshida2007language}
+N.~Yoshida and V.T. Vasconcelos.
+\newblock Language primitives and type discipline for structured
+  communication-based programming revisited:< i> two systems for higher-order
+  session communication</i>.
+\newblock {\em Electronic Notes in Theoretical Computer Science},
+  171(4):73--93, 2007.
+
+\end{thebibliography}

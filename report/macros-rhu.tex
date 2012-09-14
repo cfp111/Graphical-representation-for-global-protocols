@@ -1,0 +1,344 @@
+\newcommand{\MYPARAGRAPH}[1]{\paragraph{\textnormal{\textbf{#1}}}}
+
+\definecolor{dkblue}{rgb}{0,0.1,0.5}
+\definecolor{dkgreen}{rgb}{0,0.4,0}
+\definecolor{dkred}{rgb}{0.4,0,0}
+
+
+\newcommand{\CODESIZE}{\small}
+%\newcommand{\CODESIZE}{\smaller}
+\newcommand{\CODESTYLE}{\ttfamily}
+
+\lstset%
+{%
+	%breakautoindent=true,
+	%breaklines=true,
+	captionpos=b,
+	%columns=fixed,
+	columns=flexible, % doesn't give proper space sizes, but fixed is much too fat
+	%commentstyle=\itshape\CODESIZE\color{purple},
+	commentstyle=\CODESTYLE\footnotesize\color{purple},
+	escapeinside={*@}{@*},
+	%extendedchars=true,
+	float=hbp,
+	frame=none,
+	% identifierstyle=\color{black},
+	language=Java,
+	mathescape=true,
+	numbers=none, % OLD: Numbers "on" by default: listings inside e.g. tabulars don't seem to work if we give parameters. % Maybe inline \lstset will help?
+	numberstyle=\tiny,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	stringstyle=\color{teal},
+	tabsize=2%, % For some reason, has to be size 9 (equivalently 9 manual spaces) to match \noindent\CODE{12345678}. % maybe due to columns setting
+	%xleftmargin=\DEFAULTXLEFTMARGIN % Roughly following the default tabsize.
+}
+
+\newcommand{\CODE}[1]{\texttt{\CODESIZE#1}} % Inline code listing (no additional formatting). convention: no colour formatting for inline code.
+\newcommand{\GREYCODE}[1]{\CODE{
+	%\color{gray}{#1}}} % Problem: braces aren't the same style
+	\color{black}{#1}}} % Problem: braces aren't the same style
+\newcommand{\SJCODE}[1]
+{%
+	\lstinline[style=SJ]+#1+%
+}
+
+\lstnewenvironment{CODELISTING}% % Listing without numbers or keywords; other parameters as above.
+{%
+	\onehalfspacing
+	%\singlespacing
+	\lstset%
+	{%
+		basicstyle=\CODESTYLE\footnotesize,
+		keywordstyle=\CODESTYLE\footnotesize,
+		%numbers=none,
+		%tabsize=4 % Trying to keep tabsize a variable parameter isn't compatible with indentation conventions. The tabsize is now different to the SJBNF listing, but keep the default xleftmargin to align with BNF listings.
+	}
+}%
+{%
+	\doublespacing % Based on the settings of icthesis.sty
+}
+
+\lstdefinestyle{SJ}%
+{%
+	basicstyle   = \CODESTYLE\footnotesize,
+	keywordstyle=[1]{
+	%\bfseries
+	\!\!\!\color{dkblue}
+	\CODESTYLE\footnotesize},
+	keywordstyle=[2]{
+	%\bfseries
+	\!\!\!\color{dkgreen}
+	\CODESTYLE\footnotesize},
+	%numbers     = none,
+	%tabsize      = 4, % Same as the tabsize in the CODELISTING environment.
+        moredelim=*[s][\footnotesize\color{dkgreen}]{<}{>},
+        morekeywords =
+	[1]{%
+		%terminal, non, extend, RESULT
+		protocol, role, choice, at, or, from, to, rec, parallel,
+                and, interruptible, by, finish, continue, global, local, self, within
+	},
+	morekeywords =
+	[2]{%
+                int,Data,
+	%	noalias,
+	%	protocol,
+	%	cbegin, sbegin, rec, end,
+	%	using,
+	%	accept, request,
+	%	send, receive, receiveInt, receiveDouble, receiveFloat, receiveByte, receiveLong,
+	%	outbranch, inbranch, outwhile, inwhile, recursion, recurse,
+	%	spawn,
+	%	typecase, when,
+	%	register, select
+	},
+       literate={>=}{$\geq\ $}{2}{<=}{$\leq\ $}{2}
+}
+
+\lstnewenvironment{SJLISTING}%
+{
+	\lstset{style=SJ}
+}
+{
+}
+
+
+%%
+% General latex stuff
+%
+\newcommand{\REF}[1]{\S\,\ref{#1}}
+
+%%
+% General code stuff
+%
+%\newcommand{\CODE}[1]{{\small \texttt{#1}}}
+\newcommand{\OPASSIGN}{\, \CODE{:=} \,}
+%\newcommand{\OPEQ}{\, \CODE{==} \,}
+\newcommand{\OPEQ}{\ensuremath{=}}
+\newcommand{\OPDEC}{\CODE{--}}
+\newcommand{\OPINC}{\CODE{++}}
+\newcommand{\OPSEQ}{\CODE{;}}
+\newcommand{\OPNOT}{\ensuremath{\neg}}
+
+%%
+% General maths stuff
+%\lstnewenvironment{SJLISTING}%
+\newcommand{\OLINE}[1]{\ensuremath{\overline{#1}}}  % Overhead line
+\newcommand{\SET}[1]{\ensuremath{\{ #1 \}}}         % Set braces
+\newcommand{\FUN}[2]{\ensuremath{\mathsf{#1}(#2)}}  % Function call
+
+%%
+% General process stuff
+%
+\newcommand{\KWORD}[1]{\ensuremath{\mathsf{#1}}}
+\newcommand{\DTYPE}[1]{\ensuremath{\mathtt{#1}}}  % Data type
+\newcommand{\DVAL}[1]{\ensuremath{\mathtt{#1}}}   % Data value
+\newcommand{\PPAR}{\ensuremath{\, | \,}}
+\newcommand{\PPARGROUP}[1]{\ensuremath{(#1)}}
+\newcommand{\PIF}{\ensuremath{\KWORD{if}}}
+\newcommand{\PTHEN}{\ensuremath{\KWORD{then}}}
+\newcommand{\PELSE}{\ensuremath{\KWORD{else}}}
+\newcommand{\PNIL}{\ensuremath{\mathbf{0}}}
+\newcommand{\EMPTY}{\ensuremath{\epsilon}}
+
+%%
+% General session types stuff
+%
+\newcommand{\LAB}[1]
+	{\ensuremath{#1}}            % "Meta" label: "l"
+\newcommand{\LABVAL}[1]
+	{\ensuremath{\mathtt{#1}}}   % "Concrete" label: "quit"
+\newcommand{\ROLE}[1]
+	{\participant{#1}}           % Role/participant
+\newcommand{\PARTY}[1]
+	{\ensuremath{\mathsf{#1}}}   % Principal
+\newcommand{\MSGlxS}[3]
+	{\ensuremath{\MSGlx{#1}{#2\!:\!#3}}}  % lab(x:S)
+\newcommand{\MSGlx}[2]
+	{\ensuremath{#1 (#2)}}              % lab(x)  (variant needed to avoid ":")
+\newcommand{\MSGlS}[2]
+	{\MSGlx{#1}{#2}}                    % lab(S)
+\newcommand{\BRANCH}[1]
+	{\ensuremath{\SET{#1}}}         % Branch braces: {...}
+\newcommand{\MUREC}[1]
+	{\ensuremath{\mu \RECVAR{#1}}}  % Recursion prefix
+\newcommand{\RECVAR}[1]
+	{\ensuremath{\keyword{#1}}}     % Recursion var.
+
+%%
+% General session types stuff
+%
+\newcommand{\STATEVAR}[1]
+	{\ensuremath{\mathtt{#1}}}                % State var.
+\newcommand{\ROLEVAR}[2]
+	{\ensuremath{\ROLE{#1} . \STATEVAR{#2}}}  % p.x
+%\newcommand{\STATEDECL}[2]
+	%{\ensuremath{#1 : \DTYPE{#2}}}
+\newcommand{\STATEVARDECL}[2]
+	%{\ensuremath{\STATEDECL{\STATEVAR{#1}}{#2}}}  % x : Nat
+	{\ensuremath{\STATEVAR{#1} : \DTYPE{#2}}}      % x : Nat
+\newcommand{\PARTYSTATEDECL}[2]
+	{\ensuremath{\ROLE{#1}} : [#2]}                % p[x : Nat, ...]
+
+%%
+% Global types
+%
+\newcommand{\GSEP}{\ensuremath{.}}  % Global type separator
+\newcommand{\GLOBAL}[1]
+	{\ensuremath{\mathcal{#1}}}       % Global type name: G
+\newcommand{\GLOBALi}[2]
+	{\ensuremath{\GLOBAL{#1}_{#2}}}   % G_auction
+\newcommand{\GSEND}[2]
+	{\ensuremath{\ROLE{#1} \rightarrow \ROLE{#2} :}}  % p -> q:
+%\newcommand{\GSEND}[5]
+	%{\ensuremath{#1 \rightarrow #2 : \MSG{#3}{#4}{#5}}}
+
+% Deprecated: use \BRANCH and \MUREC instead (same for both global and local)
+\newcommand{\GBRA}[1]
+	{\ensuremath{\SET{#1}}}         % Global branch braces: {...}
+\newcommand{\GREC}[1]
+	{\ensuremath{\mu \RECVAR{#1}}}  % Global recursion prefix
+
+%%
+% Global types for assertions/effects
+%
+\newcommand{\GLOBALDECL}[1]
+	{\ensuremath{((#1))}}             % State var. decl. prefix
+\newcommand{\LASS}[1]
+	{\ensuremath{\langle #1 \rangle}}  % Left assertion: {...}
+\newcommand{\LEFF}[1]
+	{\LASS{#1}}                        % Left effect: {...}
+\newcommand{\LASSEFF}[2]
+	{\ensuremath{\LASS{#1,\, #2}}}     % Left assertion and effect: {..., ...}
+\newcommand{\RASS}[1]
+	{\ensuremath{\{ #1 \}}}            % Right assertion: <...>
+\newcommand{\REFF}[1]
+	{\RASS{#1}}                        % Right effect: <...>
+\newcommand{\RASSEFF}[2]
+	{\ensuremath{\RASS{#1,\, #2}}}     % Right assertion and effect: <..., ...>
+\newcommand{\GRECtexA}[4]
+	{\ensuremath{\MUREC{#1} \langle #2 \rangle (#3) \{ #4 \}}}
+\newcommand{\GRECVARte}[2]
+	{\ensuremath{\RECVAR{#1} \langle #2 \rangle}}
+
+%%
+% Local types
+%
+\newcommand{\LSEP}{\ensuremath{.}}  % Local type separator
+\newcommand{\LOCAL}[1]
+	{\ensuremath{\mathcal{#1}}}       % Local type name: L
+\newcommand{\LOCALi}[2]
+	{\ensuremath{\LOCAL{#1}_{#2}}}    % L_auction
+\newcommand{\LSEND}[1]
+	{\ensuremath{\ROLE{#1} \,!\,}}    % p!
+\newcommand{\LRECV}[1]
+	{\ensuremath{\ROLE{#1} \,?}}      % q!
+
+%%
+% Local types for assertions/effeacts
+%
+\newcommand{\LOCALDECL}[1]
+	{\ensuremath{[#1]}}               % State var. decl. prefix
+\newcommand{\LRECtexA}[4]
+	{\GRECtexA{#1}{#2}{#3}{#4}}
+\newcommand{\LRECVARte}[2]
+	{\GRECVARte{#1}{#2}}
+
+%%
+% Session processes (1)
+%
+\newcommand{\POSEP}{\ensuremath{;}}  % After output prefixes
+\newcommand{\PESEP}{\ensuremath{;}}  % Separator for effects
+\newcommand{\PSEP}{\ensuremath{.}}   % Others: input prefixes, recursion, etc.
+\newcommand{\PINIT}[1]
+	{\ensuremath{\mathsf{#1}}}         % Initial process
+\newcommand{\PINITi}[2]
+	{\ensuremath{\mathsf{#1}_{#2}}}    % e.g. initial P_Server
+%\newcommand{\PRUNT}
+	%{\ensuremath{#1}}
+\newcommand{\PREQ}[4]
+	{\ensuremath{\OLINE{#1} \langle #2 [\ROLE{#3}] : \GLOBAL{#4} \rangle}}
+                                                                % a~<x[p]:G>
+\newcommand{\PACC}[4]
+	{\ensuremath{#1 ( #2 [ \ROLE{#3} ] : \GLOBAL{#4} )}}          % a(x[p]:G)
+\newcommand{\PSEND}[5]
+	{\ensuremath{#1 [\ROLE{#2}, \ROLE{#3}] \,!\, \LAB{#4} \langle #5 \rangle}}
+	                                                              % k[p,q]!l<e>
+\newcommand{\PRECV}[3]
+	{\ensuremath{#1 [\ROLE{#2}, \ROLE{#3}] \,?\,}}                % k[p,q]?
+\newcommand{\PRECX}[1]
+	{\ensuremath{\mu #1}}                            % mu X
+\newcommand{\PRECXx}[2]
+	{\ensuremath{\PRECX{#1} (#2)}}                   % mu X (x) ...
+\newcommand{\PRECe}[1]
+	{\ensuremath{\langle #1 \rangle}}                % ... <e>
+\newcommand{\PRECVARX}[1]
+	{\ensuremath{#1}}                                % X
+\newcommand{\PRECVARXe}[2]
+	{\ensuremath{\PRECVARX{#1} \langle #2 \rangle}}  % X<e>
+
+% Deprecated: syntax change
+\newcommand{\PRECx}[2]
+	{\ensuremath{\MUREC{#1} (#2)}}
+\newcommand{\PRECtx}[2]
+	{\ensuremath{\MUREC{#1} (#2)}}      % mu t (x) ...
+\newcommand{\PRECVARte}[2]
+	{\GRECVARte{#1}{#2}}
+
+%%
+% Session processes (2)
+%
+\newcommand{\PNEWKW}{\KWORD{new}}
+\newcommand{\PREGKW}{\KWORD{reg}}
+\newcommand{\PINKW}{\KWORD{in}}
+%\newcommand{\PWITHKW}{\KWORD{with}}
+%\newcommand{\PINVITE}[2]
+	%{\ensuremath{\mathtt{I}(\mathcal{#1}[\ROLE{#2}])}}          % I(G[p])
+\newcommand{\PNEWs}[4]
+	{\ensuremath{\PNEWKW\, (\AT{#1}{#2}, \ROLE{#3}) \,\PINKW\, #4}}  % new (s:G, p) in P
+\newcommand{\PNEWa}[4]
+	{\ensuremath{\PREGKW\, \AT{#1}{#2}[\ROLE{#3}] \,\PINKW\, #4}}
+                                                        % new a:I(G[p]) in P
+\newcommand{\PNEWp}[4]
+	{\ensuremath{\PNEWKW\, \AT{#1}{#2} \,\KWORD{with}\, [#3] \,\PINKW\, #4}}
+                                           % new \alpha:\Gamma with [P] in Q
+
+% Deprecated: not needed
+%\newcommand{\PJOINKW}{\KWORD{join}}
+\newcommand{\PJOIN}[2]
+	{\ensuremath{\KWORD{join}\, #1[#2]}}  % join s[p]
+
+%%
+% Session processes (3)
+%
+\newcommand{\PLOCK}
+	{\ensuremath{\blacktriangledown \,}}
+\newcommand{\PUNLOCK}
+	{\ensuremath{\blacktriangle}}
+\newcommand{\PGET}[2]
+	{\ensuremath{#1 \OPASSIGN get(\STATEVAR{#2})}}  % x := get(f)
+\newcommand{\PPUT}[2]
+	{\ensuremath{put(#1, \STATEVAR{#2})}}           % put(f, e)
+\newcommand{\PLRECV}[3]
+	{#1 [\ROLE{#2}, \ROLE{#3}] \, ? \blacktriangledown}
+
+%%
+% Session processes (4)
+%
+\newcommand{\PSNET}[1]
+	{\ensuremath{#1}}     % Static network: N
+\newcommand{\PSNETi}[2]
+	{\ensuremath{#1_{#2}}}
+%\newcommand{\PDNET}[1]
+	%{\ensuremath{\mathcal{#1}}}
+\newcommand{\PICHAN}[2]
+	{\ensuremath{\mathtt{I}(#1 [\ROLE{#2}])}}
+\newcommand{\POCHAN}[2]
+	{\ensuremath{\mathtt{O}(#1 [\ROLE{#2}])}}
+\newcommand{\PNETQUEUE}[2]
+	{\ensuremath{\langle #1 ; #2 \rangle}}
+
+\newcommand{\RAYCOMMENT}[1]{~\\ \textbf{RAY:} #1}
+

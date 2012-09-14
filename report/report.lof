@@ -1,0 +1,56 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces The choreography for the OOI ``Acquire Data from Instrument'' use case}}{6}
+\contentsline {figure}{\numberline {2}{\ignorespaces The global protocol for the OOI ``Acquire Data from Instrument'' use case}}{7}
+\contentsline {figure}{\numberline {3}{\ignorespaces The Scribble global protocol for the OOI ``Acquire Data from Instrument'' use case}}{8}
+\contentsline {figure}{\numberline {4}{\ignorespaces Mapping between global protocol and graph}}{9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces General structure for multiparty session types}}{13}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The three buyer protocol interactions}}{14}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces The three buyer example}}{15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture of the design}}{24}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A Free Choice Petri Net}}{25}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A Finite State Machine}}{26}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces An example of BPMN choreography from bpm-research.blogspot.co.uk}}{27}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Representation of a message passing}}{28}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Representation of a choice construct}}{29}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Representation of a parallel construct}}{30}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Representation of a recursion}}{31}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Representation of a interruption}}{31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces General structure for the development}}{33}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Structure of the development}}{34}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Details of the structure for the development}}{35}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An example of a parser rule and its diagram: the choice case}}{35}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Representation of the development}}{36}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of the project}}{37}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Class diagram for graphs}}{38}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Class diagram for edges and nodes}}{39}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Implementation's structure from Scribble to graph}}{40}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Code of the main method}}{41}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A variation of Use Case "Acquire Data from Instrument"}}{45}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Representation of the delay}}{46}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Example to illustrate the new syntax}}{52}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces From the point of view of A}}{53}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces From the point of view of B}}{53}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Representation of the case of an absolute delay}}{55}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Representation of the case of a relative delay}}{56}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Representation of the case of a constraint}}{57}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Example of temporal satisfiability}}{58}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Representation of a recursion inside a parallel construct}}{62}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Representation of a recursion inside a choice construct}}{63}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Representation of a continue inside only one branch}}{63}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Representation of a nested recursion inside a choice}}{64}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Abstract Syntax Tree for the message case}}{74}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Abstract Syntax Tree for the choice case}}{75}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Abstract Syntax Tree for the parallel case}}{76}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Abstract Syntax Tree for the recursion case}}{77}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Abstract Syntax Tree for the interruption case}}{78}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Abstract Syntax Tree for the delay case}}{79}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Python's package}}{84}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Structure of the project}}{85}

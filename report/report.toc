@@ -1,0 +1,126 @@
+\contentsline {chapter}{Introduction}{5}
+\contentsline {section}{Motivations}{5}
+\contentsline {subsection}{Example: Data Acquisition Use Case}{6}
+\contentsline {section}{Contributions}{9}
+\contentsline {chapter}{\numberline {1}Background}{11}
+\contentsline {section}{\numberline {1.1}Session types}{11}
+\contentsline {subsection}{\numberline {1.1.1}Binary session types}{11}
+\contentsline {subsection}{\numberline {1.1.2}Multiparty session types}{13}
+\contentsline {subsubsection}{Overview}{13}
+\contentsline {subsubsection}{The three buyers protocol example}{13}
+\contentsline {subsubsection}{Syntax and semantics}{15}
+\contentsline {subsubsection}{Types and projection}{15}
+\contentsline {subsubsection}{Type checking and properties}{17}
+\contentsline {subsection}{\numberline {1.1.3}Generalised Multiparty session types}{18}
+\contentsline {subsubsection}{Overview}{18}
+\contentsline {subsubsection}{Syntax, semantics and projection}{18}
+\contentsline {subsubsection}{Multiparty Session Automata}{19}
+\contentsline {subsubsection}{Properties and type checking}{19}
+\contentsline {subsection}{\numberline {1.1.4}Verification issues}{19}
+\contentsline {section}{\numberline {1.2}Scribble}{20}
+\contentsline {subsection}{\numberline {1.2.1}Overview}{20}
+\contentsline {subsection}{\numberline {1.2.2}Syntax}{20}
+\contentsline {subsection}{\numberline {1.2.3}Communicating features and associated conditions}{21}
+\contentsline {subsubsection}{Interaction}{21}
+\contentsline {subsubsection}{Choice}{21}
+\contentsline {subsubsection}{Recursion}{21}
+\contentsline {subsubsection}{Parallel}{21}
+\contentsline {subsubsection}{Interruption}{22}
+\contentsline {section}{\numberline {1.3}Implementation issues}{22}
+\contentsline {subsection}{\numberline {1.3.1}Previous work}{22}
+\contentsline {subsubsection}{Extension of Java}{22}
+\contentsline {subsubsection}{Session C}{22}
+\contentsline {subsection}{\numberline {1.3.2}A tool chain in Python}{23}
+\contentsline {chapter}{\numberline {2}The graph design}{24}
+\contentsline {section}{\numberline {2.1}Choices for the syntax}{24}
+\contentsline {subsection}{\numberline {2.1.1}The method}{24}
+\contentsline {subsection}{\numberline {2.1.2}The chosen global type}{25}
+\contentsline {section}{\numberline {2.2}Discussion about existing representation}{25}
+\contentsline {subsection}{\numberline {2.2.1}Free Choice Petri Nets}{25}
+\contentsline {subsection}{\numberline {2.2.2}Finite State Machines}{26}
+\contentsline {subsection}{\numberline {2.2.3}Business Process Modelling Notation}{26}
+\contentsline {section}{\numberline {2.3}The chosen notations}{27}
+\contentsline {subsection}{\numberline {2.3.1}General principles}{27}
+\contentsline {subsection}{\numberline {2.3.2}Message}{28}
+\contentsline {subsection}{\numberline {2.3.3}Choice}{28}
+\contentsline {subsection}{\numberline {2.3.4}Parallel}{29}
+\contentsline {subsection}{\numberline {2.3.5}Recursion}{30}
+\contentsline {subsection}{\numberline {2.3.6}Interruption}{30}
+\contentsline {subsection}{\numberline {2.3.7}Well-formedness conditions}{31}
+\contentsline {section}{\numberline {2.4}Further remarks}{32}
+\contentsline {chapter}{\numberline {3}The development structure}{33}
+\contentsline {section}{\numberline {3.1}General structure}{33}
+\contentsline {section}{\numberline {3.2}From Scribble protocol to graph}{34}
+\contentsline {subsection}{\numberline {3.2.1}Method}{34}
+\contentsline {subsection}{\numberline {3.2.2}ANTLRWorks}{34}
+\contentsline {subsection}{\numberline {3.2.3}Lexer, Parser}{34}
+\contentsline {section}{\numberline {3.3}From graph to Scribble protocol}{35}
+\contentsline {chapter}{\numberline {4}Details of the implementation}{37}
+\contentsline {section}{\numberline {4.1}Structure of the code}{37}
+\contentsline {section}{\numberline {4.2}The Python library: an extension of pydot}{38}
+\contentsline {subsection}{\numberline {4.2.1}Pydot}{38}
+\contentsline {subsection}{\numberline {4.2.2}Extensions}{38}
+\contentsline {section}{\numberline {4.3}From Scribble to graph}{39}
+\contentsline {subsection}{\numberline {4.3.1}Main method}{39}
+\contentsline {subsection}{\numberline {4.3.2}Choices and assumptions}{40}
+\contentsline {section}{\numberline {4.4}From graph to Scribble}{41}
+\contentsline {subsection}{\numberline {4.4.1}Creation of the graph}{41}
+\contentsline {subsection}{\numberline {4.4.2}Generation of the protocol}{41}
+\contentsline {chapter}{\numberline {5}Towards graphs with time}{43}
+\contentsline {section}{\numberline {5.1}General presentation}{43}
+\contentsline {subsection}{\numberline {5.1.1}Useful definitions}{43}
+\contentsline {subsection}{\numberline {5.1.2}Motivations}{43}
+\contentsline {section}{\numberline {5.2}Design}{43}
+\contentsline {subsection}{\numberline {5.2.1}General example}{44}
+\contentsline {subsection}{\numberline {5.2.2}A new node: Delay}{44}
+\contentsline {section}{\numberline {5.3}Extension of the Scribble language}{44}
+\contentsline {section}{\numberline {5.4}Implementation}{47}
+\contentsline {chapter}{\numberline {6}Timed global protocol}{48}
+\contentsline {section}{\numberline {6.1}Related work}{48}
+\contentsline {subsection}{\numberline {6.1.1}Contract formalism}{48}
+\contentsline {subsection}{\numberline {6.1.2}Timer}{48}
+\contentsline {subsection}{\numberline {6.1.3}Timed Colored Petri-Nets}{49}
+\contentsline {subsection}{\numberline {6.1.4}Timed Automata}{49}
+\contentsline {subsection}{\numberline {6.1.5}Timed Pi-calculus}{50}
+\contentsline {subsection}{\numberline {6.1.6}Other work}{50}
+\contentsline {section}{\numberline {6.2}The syntax}{50}
+\contentsline {subsection}{\numberline {6.2.1}Primarily notations}{51}
+\contentsline {subsection}{\numberline {6.2.2}As a generalised global type}{51}
+\contentsline {subsection}{\numberline {6.2.3}As a local type}{52}
+\contentsline {subsection}{\numberline {6.2.4}As communicating finite state machines}{53}
+\contentsline {section}{\numberline {6.3}Expressiveness of the syntax}{54}
+\contentsline {subsection}{\numberline {6.3.1}Timeout for message passing}{54}
+\contentsline {subsection}{\numberline {6.3.2}Delay}{54}
+\contentsline {subsection}{\numberline {6.3.3}Time constraints}{56}
+\contentsline {section}{\numberline {6.4}Results}{57}
+\contentsline {subsection}{\numberline {6.4.1}Well-formedness}{57}
+\contentsline {subsection}{\numberline {6.4.2}Projection}{59}
+\contentsline {subsection}{\numberline {6.4.3}Properties and conjectures}{59}
+\contentsline {chapter}{\numberline {7}Evaluation}{61}
+\contentsline {section}{\numberline {7.1}Method}{61}
+\contentsline {section}{\numberline {7.2}Test cases}{61}
+\contentsline {subsection}{\numberline {7.2.1}Parallel and Recursion}{61}
+\contentsline {subsection}{\numberline {7.2.2}Choice and Recursion}{62}
+\contentsline {subsection}{\numberline {7.2.3}Recursion and Choice}{62}
+\contentsline {subsection}{\numberline {7.2.4}Double Recursion and Choice}{63}
+\contentsline {section}{\numberline {7.3}Result}{64}
+\contentsline {chapter}{Conclusion}{66}
+\contentsline {section}{Achievements}{66}
+\contentsline {section}{The challenging parts of the project}{66}
+\contentsline {subsection}{Implementation side}{66}
+\contentsline {subsection}{Theory side}{67}
+\contentsline {section}{Possible improvements}{67}
+\contentsline {section}{Future work}{67}
+\contentsline {section}{Concluding remarks}{68}
+\contentsline {chapter}{Bibliography}{70}
+\contentsline {chapter}{\numberline {A}Details of the examples exposed in the report}{74}
+\contentsline {section}{\numberline {A.1}Message}{74}
+\contentsline {section}{\numberline {A.2}Choice}{75}
+\contentsline {section}{\numberline {A.3}Parallel}{76}
+\contentsline {section}{\numberline {A.4}Recursion}{77}
+\contentsline {section}{\numberline {A.5}Interruption}{78}
+\contentsline {section}{\numberline {A.6}Delay}{79}
+\contentsline {chapter}{\numberline {B}Implementation}{80}
+\contentsline {section}{\numberline {B.1}ANTLR grammar: the complete file}{80}
+\contentsline {section}{\numberline {B.2}Examples of code}{82}
+\contentsline {section}{\numberline {B.3}User guide}{83}

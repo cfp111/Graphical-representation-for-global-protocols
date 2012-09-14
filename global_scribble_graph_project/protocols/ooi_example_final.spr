@@ -1,0 +1,59 @@
+global protocol DataAcquisitionExample(role U, role A, role I) {
+choice at U {
+PushMode(InstrumentId) from U to A within 2s;
+PushMode from A to I within 1s;
+choice at I {
+Supported from I to A within 1s;
+ConfigPush from A to I within 1s;
+t after 4s and t1 is 0s
+rec PUSH1 {
+Raw(Data) from I to A within 1s;
+Formatted(Data) from A to U within 2s;
+t1 before 100s
+continue PUSH1;
+}
+} or {
+NotSupported from I to A within 1s;
+ConfigPoll from A to I within 1s;
+wait for t is 5s
+t2 is 0s
+rec POLL1 {
+Poll from A to I within 1s;
+Raw(Data) from I to A within 1s;
+Formatted(Data) from A to U within 2s;
+t2 before 10min
+continue POLL1;
+}} 
+} or {
+PollMode(InstrumentId, int) from U to A within 2s;
+PollMode from A to I within 1s;
+choice at I {
+Supported from I to A within 1s;
+ConfigPoll from A to I within 1s;
+t3 is 0s
+rec POLL2 {
+Poll from A to I within 1s;
+Raw(Data) from I to A within 1s;
+Formatted(Data) from A to U within 2s;
+t3 before 100s
+continue POLL2;
+}
+} or {
+NotSupported from I to A within 1s;
+wait for t+3min
+t4 is 0s and t5 is 0s 
+parallel {
+ConfigPush from A to I within 1s;
+rec PUSH2 {
+Raw(Data) from I to A within 1s;
+t4 before 100s
+continue PUSH2;
+}
+} and {
+rec POLL3 {
+Formatted(Data) from A to U within 2s;
+t5 before 100s
+continue POLL3; }
+}}
+}
+}

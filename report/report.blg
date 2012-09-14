@@ -1,0 +1,28 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
+The style file: plain.bst
+Database file #1: bibreport.bib
+I was expecting a `,' or a `}'---line 222 of file bibreport.bib
+ :   
+ :   year={1992}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in bocchisafety
+Warning--to sort, need author or key in scribblelanguage
+Warning--to sort, need author or key in scribble
+Warning--to sort, need author or key in bpmn
+Warning--to sort, need author or key in bpmnposter
+Warning--to sort, need author or key in ws
+Warning--to sort, need author or key in pydot
+Warning--to sort, need author or key in graphviz
+Warning--empty author in bocchisafety
+Warning--empty journal in bocchisafety
+Warning--empty year in bocchisafety
+Warning--empty journal in coppoglobal
+Warning--empty journal in henriksentrustworthy
+Warning--empty booktitle in honda2011scribbling
+Warning--empty booktitle in honda1998language
+Warning--empty booktitle in hu2008session
+Warning--can't use both volume and number fields in lee2002modeling
+Warning--empty booktitle in maggi2011monitoring
+Warning--empty year in vanderaalst1992timed
+(There was 1 error message)

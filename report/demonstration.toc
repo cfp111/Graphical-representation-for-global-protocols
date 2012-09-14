@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Motivations}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Example}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Generalised Multiparty Session Types}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{Overview of the project}{9}{0}{1}
+\beamer@sectionintoc {2}{Graph Representation}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{The design}{15}{0}{2}
+\beamer@subsectionintoc {2}{2}{Syntax}{17}{0}{2}
+\beamer@subsectionintoc {2}{3}{Results}{21}{0}{2}
+\beamer@sectionintoc {3}{About the Implementation}{23}{0}{3}
+\beamer@subsectionintoc {3}{1}{Structure of the development}{24}{0}{3}
+\beamer@subsectionintoc {3}{2}{Demonstration}{26}{0}{3}

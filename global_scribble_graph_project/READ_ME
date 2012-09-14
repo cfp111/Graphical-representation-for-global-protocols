@@ -1,0 +1,36 @@
+Hello,
+You will find here some information about the project global_scribble_graph.
+
+First, you need to install Pydot as a Python package. 
+This can be found in: http://code.google.com/p/pydot/downloads/list
+Furthermore, Pydot requires also: 
+pyparsing in order to load DOT files (http://pyparsing.wikispaces.com/),
+Graphviz to render the graphs (http://www.graphviz.org/). 
+
+Second, you need to install ANTLR. 
+The Python runtime environment can be found in http://www.antlr.org/download/Python
+
+The project is divided into 2 folders:
+ - protocols: there are examples of Scribble global protocols.
+ - src: the scribbleToGraph file allows to get the graph from a Scribble global protocol.
+ 		the graphToScribble file allows to get the Scribble global protocol from the graph, 
+ 		both will be written in files.
+ 		the testCreation file allows to specified graph that will be executed in the test file.
+ 		- ext: 	it is the Python file with the graph objects. 
+ 				This file extended the pydot library.
+ 				So it is important to have installed pydot and also graphviz in order to use it.
+ 		- antlr_pydot: there are the files to parse a Scribble protocol with time constraints and delays.
+ 
+To generate a graph from a global protocol in Scribble (.spr file),
+you need to specify the file,
+and then run the main method in scribbleToGraph.py in the Source package of the project.
+
+To generate a global protocol in Scribble from a graph,
+you need to first create the graph.
+You can use for this purpose the file graphCreation.py in the Source package.
+Then you need to run the main method in graphToScribble.py in the Source package as well.
+
+If you use ANTLRWorks to generate the files, 
+ANTLRWorks 1.2.2 allows generating the files in Python,
+ANTLRWorks 1.3 allows debugging grammars.
+Do not use other updated versions, it may not work.

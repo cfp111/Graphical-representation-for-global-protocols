@@ -1,0 +1,49 @@
+global protocol DataAcquisition2(role U, role A, role I) {
+interruptible { choice at U {
+PushMode(InstrumentId) from U to A within 2s;
+PushMode from A to I within 1s;
+choice at I {
+Supported from I to A within 1s;
+ConfigPush from A to I within 1s;
+rec PUSH1 {
+Raw(Data) from I to A within 1s;
+Formatted(Data) from A to U within 2s;
+continue PUSH1;
+}
+} or {
+NotSupported from I to A within 1s;
+ConfigPoll from A to I within 1s;
+rec POLL1 {
+Poll from A to I within 1s;
+Raw(Data) from I to A within 1s;
+Formatted(Data) from A to U within 2s;
+continue POLL1;
+}} 
+} or {
+PollMode(InstrumentId, int) from U to A within 2s;
+PollMode from A to I within 1s;
+choice at I {
+Supported from I to A within 1s;
+ConfigPoll from A to I within 1s;
+rec POLL2 {
+Poll from A to I within 1s;
+Raw(Data) from I to A within 1s;
+Formatted(Data) from A to U within 2s;
+continue POLL2;
+}
+} or {
+NotSupported from I to A within 1s;
+parallel {
+ConfigPush from A to I within 1s;
+rec PUSH2 {
+Raw(Data) from I to A within 1s;
+continue PUSH2;
+}
+} and {
+rec POLL3 {
+Formatted(Data) from A to U within 2s;
+continue POLL3; }
+}}
+}
+} by U with Stop 
+}

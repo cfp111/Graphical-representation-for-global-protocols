@@ -1,0 +1,3 @@
+global protocol TestMessage ( role A, role U) {
+ PollMode(InstrumentId,int) from U to A within 2s;
+}

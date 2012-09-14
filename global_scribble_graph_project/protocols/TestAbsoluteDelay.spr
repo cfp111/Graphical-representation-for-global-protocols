@@ -1,0 +1,4 @@
+global protocol TestAbsoluteDelay ( role A, role U) {
+	wait for t is 17 h
+	PollMode(InstrumentId,int) from U to A within 2 s;
+}

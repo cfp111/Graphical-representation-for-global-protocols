@@ -1,0 +1,5 @@
+global protocol ExampleCFSM (role A, role B){
+  t before 3s
+  TheMessage from A to B within 2s;
+  wait for t1 + 1s
+}

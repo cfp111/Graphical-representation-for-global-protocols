@@ -1,0 +1,6 @@
+global protocol TestParallelAndRecursion ( role A, role B, role C, role D ) {
+ parallel{ Msg1 from A to B within 1s;} and {
+  rec Loop {Msg from A to C within 1s; 
+           continue Loop;}}
+  and { Msg2 from A to D within 1s;}
+}

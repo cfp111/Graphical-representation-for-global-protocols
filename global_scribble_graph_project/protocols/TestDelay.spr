@@ -1,0 +1,5 @@
+global protocol TestDelay ( role A, role I) {
+ NotSupported from I to A within 1s;
+ wait for t + 3s
+ ConfigPush from A to I within 1s;
+}

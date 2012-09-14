@@ -1,0 +1,5 @@
+global protocol TestParallel ( role A, role I, role U) {
+ NotSupported from I to A within 1s;
+ parallel
+    {ConfigPush from A to I within 1s; Raw(Data) from I to A within 1s;}and{ Formatted(Data) from A to U within 2s;}
+}

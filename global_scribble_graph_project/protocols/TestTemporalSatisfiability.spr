@@ -1,0 +1,10 @@
+global protocol TestTemporalSatisfiability (role A, role B, role C) {
+	wait for t is 5s
+	Msg1(no1) from A to B within 2 s;
+	choice at B {
+		t after 6s
+		Msg2(no2) from B to C within 1s;
+	} or {
+		Msg3(no3) from B to C within 1s;
+	}
+}
